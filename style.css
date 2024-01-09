@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/* Card */
+.card {
+    width: 350px;
+    height: 360px;
+    border: 1px solid #DDD;
+    border-radius: 13px 65px 13px 65px;
+    transition: .7s;
+    margin-top: 15px;
+    cursor: pointer;
+    filter: opacity(.7);
+}
+
+.card:hover {
+    box-shadow: -12px 12px 15px rgba(0, 0, 0, .1);
+    transform: scale(102%);
+    filter: opacity(1);
+}
+
+.card h4 {
+    margin-left: 15px;
+    margin-top: 15px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 1);
+    transition: .7s;
+}
+
+.card h1 {
+    color: rgba(0, 0, 0, 1);
+    margin-left: 15px;
+    font-size: 40px;
+    transition: .7s;
+}
+
+.card h5 {
+    font-size: 14px;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 1);
+    transition: .7s;
+}
+
+/* Inner Card */
+.inner-card {
+    width: 90%;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: .7s;
+}
+
+.line {
+    margin-left: 15px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    transition: .7s;
+}
+
+.line:nth-child(1) {
+    width: 70%;
+    margin-top: 15px;
+}
+
+.line:nth-child(2) {
+    width: 85%;
+}
+
+.line:nth-child(3) {
+    width: 70%;
+}
+
+.line:nth-child(4) {
+    width: 70%;
+}
+
+.line:nth-child(5) {
+    width: 85%;
+}
+
+.line:nth-child(6) {
+    width: 50%;
+}
+
+.circle {
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    transition: .7s;
+}
+
+/* Card Expand */
+.expand {
+    width: 500px;
+    border-radius: 13px;
+    box-shadow: -12px 12px 15px rgba(0, 0, 0, .1);
+    transform: scale(102%);
+    filter: opacity(1);
+}
